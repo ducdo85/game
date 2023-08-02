@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{81726010-4851-4B31-817D-57D0F397DAFB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoKeoxe</RootNamespace>
+    <AssemblyName>AutoKeoxe</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>AutoKeoxe.ico</ApplicationIcon>
+    <StartupObject>AutoKeoxe.Program</StartupObject>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attribute0.cs" />
+    <Compile Include="Class10.cs" />
+    <Compile Include="Class100.cs" />
+    <Compile Include="Class101.cs" />
+    <Compile Include="Class102.cs" />
+    <Compile Include="Class103.cs" />
+    <Compile Include="Class104.cs" />
+    <Compile Include="Class11.cs" />
+    <Compile Include="Class12.cs" />
+    <Compile Include="Class13.cs" />
+    <Compile Include="Class14.cs" />
+    <Compile Include="Class15.cs" />
+    <Compile Include="Class16.cs" />
+    <Compile Include="Class17.cs" />
+    <Compile Include="Class18.cs" />
+    <Compile Include="Class19.cs" />
+    <Compile Include="Class20.cs" />
+    <Compile Include="Class21.cs" />
+    <Compile Include="Class22.cs" />
+    <Compile Include="Class23.cs" />
+    <Compile Include="Class24.cs" />
+    <Compile Include="Class25.cs" />
+    <Compile Include="Class26.cs" />
+    <Compile Include="Class27.cs" />
+    <Compile Include="Class29.cs" />
+    <Compile Include="Class32.cs" />
+    <Compile Include="Class33.cs" />
+    <Compile Include="Class34.cs" />
+    <Compile Include="Class35.cs" />
+    <Compile Include="Class36.cs" />
+    <Compile Include="Class37.cs" />
+    <Compile Include="Class38.cs" />
+    <Compile Include="Class39.cs" />
+    <Compile Include="Class40.cs" />
+    <Compile Include="Class41.cs" />
+    <Compile Include="Class42.cs" />
+    <Compile Include="Class43.cs" />
+    <Compile Include="Class44.cs" />
+    <Compile Include="Class45.cs" />
+    <Compile Include="Class46.cs" />
+    <Compile Include="Class47.cs" />
+    <Compile Include="Class48.cs" />
+    <Compile Include="Class49.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class50.cs" />
+    <Compile Include="Class51.cs" />
+    <Compile Include="Class52.cs" />
+    <Compile Include="Class53.cs" />
+    <Compile Include="Class54.cs" />
+    <Compile Include="Class55.cs" />
+    <Compile Include="Class56.cs" />
+    <Compile Include="Class57.cs" />
+    <Compile Include="Class58.cs" />
+    <Compile Include="Class59.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class60.cs" />
+    <Compile Include="Class61.cs" />
+    <Compile Include="Class62.cs" />
+    <Compile Include="Class63.cs" />
+    <Compile Include="Class64.cs" />
+    <Compile Include="Class65.cs" />
+    <Compile Include="Class66.cs" />
+    <Compile Include="Class67.cs" />
+    <Compile Include="Class69.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class70.cs" />
+    <Compile Include="Class71.cs" />
+    <Compile Include="Class72.cs" />
+    <Compile Include="Class73.cs" />
+    <Compile Include="Class74.cs" />
+    <Compile Include="Class75.cs" />
+    <Compile Include="Class76.cs" />
+    <Compile Include="Class77.cs" />
+    <Compile Include="Class78.cs" />
+    <Compile Include="Class79.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Class80.cs" />
+    <Compile Include="Class81.cs" />
+    <Compile Include="Class82.cs" />
+    <Compile Include="Class83.cs" />
+    <Compile Include="Class84.cs" />
+    <Compile Include="Class85.cs" />
+    <Compile Include="Class86.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="Class90.cs" />
+    <Compile Include="Class91.cs" />
+    <Compile Include="Class92.cs" />
+    <Compile Include="Class93.cs" />
+    <Compile Include="Class94.cs" />
+    <Compile Include="Class95.cs" />
+    <Compile Include="Class96.cs" />
+    <Compile Include="Class97.cs" />
+    <Compile Include="Class98.cs" />
+    <Compile Include="Class99.cs" />
+    <Compile Include="Combo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Combo.Designer.cs">
+      <DependentUpon>Combo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dangky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dangky.Designer.cs">
+      <DependentUpon>Dangky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAchinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAchinh.Designer.cs">
+      <DependentUpon>FormAchinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntivirus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntivirus.Designer.cs">
+      <DependentUpon>FormAntivirus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBanEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBanEvent.Designer.cs">
+      <DependentUpon>FormBanEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChayBoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChayBoss.Designer.cs">
+      <DependentUpon>FormChayBoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChayMuaMauTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChayMuaMauTK.Designer.cs">
+      <DependentUpon>FormChayMuaMauTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClickNPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClickNPC.Designer.cs">
+      <DependentUpon>FormClickNPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompatibility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompatibility.Designer.cs">
+      <DependentUpon>FormCompatibility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCuuSat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCuuSat.Designer.cs">
+      <DependentUpon>FormCuuSat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDame.Designer.cs">
+      <DependentUpon>FormDame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDoiMauBang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoiMauBang.Designer.cs">
+      <DependentUpon>FormDoiMauBang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDuongMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDuongMon.Designer.cs">
+      <DependentUpon>FormDuongMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHaucanTuithuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHaucanTuithuoc.Designer.cs">
+      <DependentUpon>FormHaucanTuithuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHuyenTinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHuyenTinh.Designer.cs">
+      <DependentUpon>FormHuyenTinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhongCatdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhongCatdo.Designer.cs">
+      <DependentUpon>FormKhongCatdo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoaitru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoaitru.Designer.cs">
+      <DependentUpon>FormLoaitru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLocdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLocdo.Designer.cs">
+      <DependentUpon>FormLocdo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLocdoTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLocdoTest.Designer.cs">
+      <DependentUpon>FormLocdoTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLuomrac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLuomrac.Designer.cs">
+      <DependentUpon>FormLuomrac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMagic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMagic.Designer.cs">
+      <DependentUpon>FormMagic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMayphu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMayphu.Designer.cs">
+      <DependentUpon>FormMayphu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuClick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuClick.Designer.cs">
+      <DependentUpon>FormMenuClick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNgamyBuff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNgamyBuff.Designer.cs">
+      <DependentUpon>FormNgamyBuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhiepTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhiepTT.Designer.cs">
+      <DependentUpon>FormNhiepTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPhimtat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPhimtat.Designer.cs">
+      <DependentUpon>FormPhimtat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPhongKy1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPhongKy1.Designer.cs">
+      <DependentUpon>FormPhongKy1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPT.Designer.cs">
+      <DependentUpon>FormPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPushMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPushMoney.Designer.cs">
+      <DependentUpon>FormPushMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRaovat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRaovat.Designer.cs">
+      <DependentUpon>FormRaovat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRauria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRauria.Designer.cs">
+      <DependentUpon>FormRauria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSuado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuado.Designer.cs">
+      <DependentUpon>FormSuado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTangdiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTangdiem.Designer.cs">
+      <DependentUpon>FormTangdiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTapKet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTapKet.Designer.cs">
+      <DependentUpon>FormTapKet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest.Designer.cs">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThuocLag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThuocLag.Designer.cs">
+      <DependentUpon>FormThuocLag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThuocTocdoDanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThuocTocdoDanh.Designer.cs">
+      <DependentUpon>FormThuocTocdoDanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTienSkill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTienSkill.Designer.cs">
+      <DependentUpon>FormTienSkill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTip.Designer.cs">
+      <DependentUpon>FormTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTutim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTutim.Designer.cs">
+      <DependentUpon>FormTutim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTuychon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTuychon.Designer.cs">
+      <DependentUpon>FormTuychon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTuyenchien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTuyenchien.Designer.cs">
+      <DependentUpon>FormTuyenchien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUutienNguHanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUutienNguHanh.Designer.cs">
+      <DependentUpon>FormUutienNguHanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVideoHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVideoHelp.Designer.cs">
+      <DependentUpon>FormVideoHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXaphuCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXaphuCT.Designer.cs">
+      <DependentUpon>FormXaphuCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GClass0.cs" />
+    <Compile Include="GClass1.cs" />
+    <Compile Include="GClass2.cs" />
+    <Compile Include="GEnum0.cs" />
+    <Compile Include="GEnum1.cs" />
+    <Compile Include="GEnum2.cs" />
+    <Compile Include="GEnum3.cs" />
+    <Compile Include="GEnum4.cs" />
+    <Compile Include="GEnum5.cs" />
+    <Compile Include="GEnum6.cs" />
+    <Compile Include="GStruct0.cs" />
+    <Compile Include="GStruct1.cs" />
+    <Compile Include="GStruct10.cs" />
+    <Compile Include="GStruct11.cs" />
+    <Compile Include="GStruct12.cs" />
+    <Compile Include="GStruct13.cs" />
+    <Compile Include="GStruct14.cs" />
+    <Compile Include="GStruct17.cs" />
+    <Compile Include="GStruct18.cs" />
+    <Compile Include="GStruct19.cs" />
+    <Compile Include="GStruct2.cs" />
+    <Compile Include="GStruct20.cs" />
+    <Compile Include="GStruct21.cs" />
+    <Compile Include="GStruct22.cs" />
+    <Compile Include="GStruct23.cs" />
+    <Compile Include="GStruct24.cs" />
+    <Compile Include="GStruct25.cs" />
+    <Compile Include="GStruct26.cs" />
+    <Compile Include="GStruct27.cs" />
+    <Compile Include="GStruct28.cs" />
+    <Compile Include="GStruct29.cs" />
+    <Compile Include="GStruct3.cs" />
+    <Compile Include="GStruct30.cs" />
+    <Compile Include="GStruct31.cs" />
+    <Compile Include="GStruct32.cs" />
+    <Compile Include="GStruct33.cs" />
+    <Compile Include="GStruct34.cs" />
+    <Compile Include="GStruct35.cs" />
+    <Compile Include="GStruct36.cs" />
+    <Compile Include="GStruct37.cs" />
+    <Compile Include="GStruct38.cs" />
+    <Compile Include="GStruct39.cs" />
+    <Compile Include="GStruct4.cs" />
+    <Compile Include="GStruct40.cs" />
+    <Compile Include="GStruct41.cs" />
+    <Compile Include="GStruct42.cs" />
+    <Compile Include="GStruct43.cs" />
+    <Compile Include="GStruct44.cs" />
+    <Compile Include="GStruct45.cs" />
+    <Compile Include="GStruct46.cs" />
+    <Compile Include="GStruct47.cs" />
+    <Compile Include="GStruct48.cs" />
+    <Compile Include="GStruct49.cs" />
+    <Compile Include="GStruct5.cs" />
+    <Compile Include="GStruct50.cs" />
+    <Compile Include="GStruct51.cs" />
+    <Compile Include="GStruct52.cs" />
+    <Compile Include="GStruct54.cs" />
+    <Compile Include="GStruct55.cs" />
+    <Compile Include="GStruct56.cs" />
+    <Compile Include="GStruct57.cs" />
+    <Compile Include="GStruct58.cs" />
+    <Compile Include="GStruct59.cs" />
+    <Compile Include="GStruct6.cs" />
+    <Compile Include="GStruct60.cs" />
+    <Compile Include="GStruct61.cs" />
+    <Compile Include="GStruct62.cs" />
+    <Compile Include="GStruct7.cs" />
+    <Compile Include="GStruct8.cs" />
+    <Compile Include="GStruct9.cs" />
+    <Compile Include="Interface0.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RemoteThreadParams.cs" />
+    <Compile Include="Struct10.cs" />
+    <Compile Include="Struct11.cs" />
+    <Compile Include="Struct12.cs" />
+    <Compile Include="Struct23.cs" />
+    <Compile Include="Struct30.cs" />
+    <Compile Include="Struct7.cs" />
+    <Compile Include="Struct8.cs" />
+    <Compile Include="Struct9.cs" />
+    <Compile Include="ThemXoaDanhsach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemXoaDanhsach.Designer.cs">
+      <DependentUpon>ThemXoaDanhsach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TryNewVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TryNewVersion.Designer.cs">
+      <DependentUpon>TryNewVersion.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Class16.resources" />
+    <EmbeddedResource Include="Combo.resources" />
+    <EmbeddedResource Include="Dangky.resources" />
+    <EmbeddedResource Include="Form1.resources" />
+    <EmbeddedResource Include="FormAchinh.resources" />
+    <EmbeddedResource Include="FormAntivirus.resources" />
+    <EmbeddedResource Include="FormBanEvent.resources" />
+    <EmbeddedResource Include="FormChayBoss.resources" />
+    <EmbeddedResource Include="FormChayMuaMauTK.resources" />
+    <EmbeddedResource Include="FormClickNPC.resources" />
+    <EmbeddedResource Include="FormCompatibility.resources" />
+    <EmbeddedResource Include="FormCuuSat.resources" />
+    <EmbeddedResource Include="FormDame.resources" />
+    <EmbeddedResource Include="FormDoiMauBang.resources" />
+    <EmbeddedResource Include="FormDuongMon.resources" />
+    <EmbeddedResource Include="FormHaucanTuithuoc.resources" />
+    <EmbeddedResource Include="FormHuyenTinh.resources" />
+    <EmbeddedResource Include="FormKhongCatdo.resources" />
+    <EmbeddedResource Include="FormLoaitru.resources" />
+    <EmbeddedResource Include="FormLocdo.resources" />
+    <EmbeddedResource Include="FormLocdoTest.resources" />
+    <EmbeddedResource Include="FormLogin.resources" />
+    <EmbeddedResource Include="FormLuomrac.resources" />
+    <EmbeddedResource Include="FormMagic.resources" />
+    <EmbeddedResource Include="FormMayphu.resources" />
+    <EmbeddedResource Include="FormMenuClick.resources" />
+    <EmbeddedResource Include="FormNgamyBuff.resources" />
+    <EmbeddedResource Include="FormPhimtat.resources" />
+    <EmbeddedResource Include="FormPhongKy1.resources" />
+    <EmbeddedResource Include="FormPT.resources" />
+    <EmbeddedResource Include="FormPushMoney.resources" />
+    <EmbeddedResource Include="FormRaovat.resources" />
+    <EmbeddedResource Include="FormRauria.resources" />
+    <EmbeddedResource Include="FormSuado.resources" />
+    <EmbeddedResource Include="FormTangdiem.resources" />
+    <EmbeddedResource Include="FormTapKet.resources" />
+    <EmbeddedResource Include="FormTest.resources" />
+    <EmbeddedResource Include="FormThuocLag.resources" />
+    <EmbeddedResource Include="FormThuocTocdoDanh.resources" />
+    <EmbeddedResource Include="FormTienSkill.resources" />
+    <EmbeddedResource Include="FormTip.resources" />
+    <EmbeddedResource Include="FormTutim.resources" />
+    <EmbeddedResource Include="FormTuychon.resources" />
+    <EmbeddedResource Include="FormTuyenchien.resources" />
+    <EmbeddedResource Include="FormUutienNguHanh.resources" />
+    <EmbeddedResource Include="FormVideoHelp.resources" />
+    <EmbeddedResource Include="FormXaphuCT.resources" />
+    <EmbeddedResource Include="Properties\Resources.resources" />
+    <EmbeddedResource Include="Sign" />
+    <EmbeddedResource Include="ThemXoaDanhsach.resources" />
+    <EmbeddedResource Include="TryNewVersion.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

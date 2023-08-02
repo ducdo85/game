@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\3\AutoKeoxe\obj\x86\Debug\AutoKeoxe.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\3\AutoKeoxe\obj\x86\Debug\AutoKeoxe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\3\AutoKeoxe\obj\x86\Debug\AutoKeoxe.csproj.CoreCompileInputs.cache
